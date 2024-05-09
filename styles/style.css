@@ -45,6 +45,7 @@
 .main__preview {
   display: flex;
   justify-content: space-between;
+  margin-bottom: 100px;
 }
 
 .preview__text {
@@ -76,6 +77,131 @@
 
 .preview__watch {
   color: grey;
+}
+
+.advantages {
+  margin-bottom: 200px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.advantages__block {
+  display: flex;
+  flex-direction: column;
+  padding: 50px;
+}
+
+.advantages__block:nth-child(2) {
+  box-shadow: 11px 9px 25px -12px rgba(0, 0, 0, 0.75);
+  border-radius: 30px;
+}
+
+.advantages__img {
+  margin-bottom: 30px;
+  width: 70px;
+  height: 70px;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.advantages__img_1 {
+  background-color: rgba(242, 88, 34, 0.5);
+}
+.advantages__img_2 {
+  background-color: rgba(20, 146, 17, 0.5);
+}
+.advantages__img_3 {
+  background-color: rgba(255, 205, 29, 0.5);
+}
+
+.advantages__title {
+  font-weight: 800;
+  font-size: 28px;
+  letter-spacing: 1.2px;
+  margin-bottom: 30px;
+}
+
+.advantages__text {
+  max-width: 300px;
+  color: #666666;
+  margin-bottom: 32px;
+}
+
+.advantages__more {
+  font-weight: 800;
+}
+
+.services {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.services__welcome {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 64px;
+}
+
+.services__title {
+  font-weight: 800;
+  font-size: 36px;
+  letter-spacing: 1.3px;
+  margin-bottom: 40px;
+}
+
+.services__text {
+  color: #666666;
+  max-width: 790px;
+  text-align: center;
+}
+
+.services__new {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.services__block {
+  padding: 70px 37px;
+}
+
+.services__block:nth-child(2) {
+  box-shadow: 11px 9px 25px -12px rgba(0, 0, 0, 0.75);
+}
+
+.services__img {
+  margin-bottom: 31px;
+}
+
+.services__block_title {
+  font-weight: 800;
+  font-size: 24px;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.services__block_text {
+  color: #aaaaaa;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.services__btn {
+  margin: 0 auto;
+  width: 150px;
+  height: 50px;
+  border-radius: 30px;
+  color: #fff;
+  font-weight: 600;
+  background-color: #f25822;
+  display: flex;
+  column-gap: 5px;
+  justify-content: center;
+  align-items: center;
 }
 
 .footer__social {

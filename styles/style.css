@@ -19,6 +19,10 @@
   align-items: center;
 }
 
+.menu-header__item {
+  transition: color 0.15s ease 0s;
+}
+
 .menu-header__item:last-child {
   padding: 15px 28px;
   color: #fff;
@@ -26,7 +30,11 @@
   border-radius: 30px;
 }
 
-.menu-header__link:first-child {
+.menu-header__item:first-child {
+  color: orange;
+}
+
+.menu-header__item:hover:not(:last-child) {
   color: orange;
 }
 
@@ -43,12 +51,14 @@
   h1 {
     font-weight: 800;
     font-size: 35px;
+    margin-bottom: 20px;
   }
 
   p {
     color: grey;
     font-weight: 600;
     font-size: 25px;
+    margin-bottom: 38px;
   }
 }
 
